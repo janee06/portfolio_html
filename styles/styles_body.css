@@ -4,10 +4,21 @@ body{
     display: flex;
     flex-direction: column;
 }
+footer{
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;  
+}
 .content{
     flex :1;
     background-color: brown;
 }
-footer{
-    color:blue
-}
+.row {
+    display: flex;
+  }
+  .column {
+    flex: 50%;
+  }
