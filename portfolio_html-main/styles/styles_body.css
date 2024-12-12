@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(232, 166, 79);
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'BespokeStencil-Bold';
+   
+}
+.content{
+    flex :1;
+    background-color: brown;
+}
+.row {
+    display: flex;
+  }
+  .column {
+    flex: 50%;
+  }
+  footer{
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%; 
+    
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  font-family: "Asap-Regular";
+}
+
+.column {
+  flex: 1;
+  
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+ 
+}
